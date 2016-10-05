@@ -5,8 +5,10 @@ la entrada del usuario. Por ejemplo, suponiendo que la información de inicio de
 mientras que el perfil de usuario la información se almacena en la tabla `Profile`, es posible que desee para recoger los datos
 de entrada sobre un usuario a través de un modelo `User` y un modelo `Profile`. Con el modelo de Yii y apoyo formulario, 
 puede solucionar este problema de una manera que no es mucho diferente de la manipulación de un solo modelo.
-En lo que sigue, vamos a mostrar cómo se puede crear un formulario que permitirá recoger datos tanto para los modelos `User` y 
+
+En lo que sigue, vamos a mostrar cómo se puede crear un formulario que le permitirá recoger datos de ambos modelos `User` y 
 `Profile`.
+
 En primer lugar, la acción del controlador para la recogida de los datos del usuario y del perfil se puede escribir de la 
 siguiente manera,
 ```php
@@ -53,7 +55,7 @@ class UserController extends Controller
 }
 ```
 En la acción `update`, primero cargamos los modelos `User` y `Profile` que se actualicen desde la base de datos. Luego llamamos
-[[yii\base\Model::load()]] para llenar estos dos modelos con la entrada del usuario. Si tiene éxito, se validará
+[[yii\base\Model::load()]] para rellenar estos dos modelos con la entrada del usuario. Si tiene éxito, se validará
 los dos modelos y guardarlos. De lo contrario vamos a renderizar la vista `update` que tiene el siguiente contenido:
 ```php
 <?php
@@ -70,4 +72,4 @@ $form = ActiveForm::begin([
     <?= Html::submitButton('Update', ['class' => 'btn btn-primary']) ?>
 <?php ActiveForm::end() ?>
 ```
-Como se puede ver, en el `update` vista que haría que los campos de entrada utilizando dos modelos `User` y `Profile`.
+Como se puede ver, la actualizacion `update` se haría en los campos de entrada utilizando dos modelos `User` y `Profile`.
