@@ -16,7 +16,7 @@ Hay tres situaciones diferentes para cubrir, que tienen que ser manejado ligeram
 
 En contraste con los modelos de formularios individuales explicó antes, estamos trabajando con una variedad de modelos ahora.
 Esta matriz se pasa a la vista para mostrar los campos de entrada para cada modelo en una tabla como estilo y nos
-utilizará métodos de ayuda de [[yü \ Base \ Modelo]] que facilitan la carga y validación de varios modelos a la vez:
+utilizará métodos helper de [[yii\base\Model]] que facilitan la carga y validación de varios modelos a la vez:
 
 - [[yii\base\Model::loadMultiple()|Model::loadMultiple()]] datos de envío de carga en una gran variedad de modelos.
 - [[yii\base\Model::validateMultiple()|Model::validateMultiple()]] valida una gran variedad de modelos.
