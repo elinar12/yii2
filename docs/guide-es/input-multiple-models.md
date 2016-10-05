@@ -1,10 +1,11 @@
 Obtener datos para múltiples modelos
 ================================
-Cuando se trata de algunos datos complejos, es posible que puede que tenga que utilizar varios modelos diferentes para recopilar
-la entrada del usuario. Por ejemplo, suponiendo que la información de inicio de sesión del usuario se almacena en la tabla `user`, 
-mientras que el perfil de usuario la información se almacena en la tabla `Profile`, es posible que desee para recoger los datos
-de entrada sobre un usuario a través de un modelo `User` y un modelo `Profile`. Con el modelo de Yii y apoyo formulario, 
-puede solucionar este problema de una manera que no es mucho diferente de la manipulación de un solo modelo.
+Cuando se trata de algunos datos complejos, es posible que puede que tenga que utilizar varios modelos diferentes para
+recopilar la entrada del usuario. Por ejemplo, suponiendo que la información de inicio de sesión del usuario se almacena
+en la tabla `user`, mientras que el perfil de usuario la información se almacena en la tabla `Profile`, es posible que 
+desee para recoger los datos de entrada sobre un usuario a través de un modelo `User` y un modelo `Profile`. Con el 
+modelo de Yii y apoyo formulario, puede solucionar este problema de una manera que no es mucho diferente de la 
+manipulación de un solo modelo.
 
 En lo que sigue, vamos a mostrar cómo se puede crear un formulario que le permitirá recoger datos de ambos modelos `User` y 
 `Profile`.
