@@ -5,7 +5,7 @@ A veces es necesario para manejar varios modelos del mismo tipo en una sola form
 cada configuración se almacena como un par nombre-valor y está representado por un modelo `Setting` [registro activo] (db-active-record.md).
 Este tipo de formulario también se refiere a menudo como "entrada tabular".
 En contraste con esto, el manejo de diferentes modelos de diferente tipo, que se maneja en la sección
-[formas complejas con múltiples modelos] (input-multiple-models.md).
+[Obtener datos para múltiples modelos] (input-multiple-models.md).
 
 A continuación se muestra cómo implementar la entrada de tabla con Yii.
 
