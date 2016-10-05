@@ -1,4 +1,4 @@
-El cobro de entrada de tabla
+Recogida de tabular input
 ========================
 
 A veces es necesario para manejar varios modelos del mismo tipo en una sola forma. Por ejemplo, los múltiples ajustes, donde
